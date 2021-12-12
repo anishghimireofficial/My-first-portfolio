@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Merriweather, serif;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Pacifico", cursive;
+  font-size: 5em;
+  margin-top: 50px;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+h2,
+a {
+  margin: 0;
+  font-size: 2rem;
+  font-family: "Inconsolata", monospace;
+  color: #66bfbf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-family: "Inconsolata", monospace;
+  color: #66bfbf;
+}
+p {
+  font-family: "Inconsolata", monospace;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #ffffff;
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+}
+
+.skills {
+  margin: 100px 0;
+}
+/*---------------------postion property--------------
+its  help to postion content around the its parents
+postion are
+1.static
+2.relative
+3.absolute
+4.fixed
+its like giving margin
+
+--------------------display property-----------
+display are
+1.block
+2.inline
+3.inline-block
+4.none
+
+
+*/
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+
+/*-----------------------  line height and text align------------- 
+line-height for the space between text in paragraph always ends with number notwith px,emxor %
+text-align  is t0 align text to left ,right 
+
+*/
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/**********************************---------------float property-------------
+its help to side the img to left-right,updown.  */
+
+.img-web {
+  margin-bottom: 20px;
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.img-python {
+  float: right;
+  width: 25%;
+  margin-left: 20px;
+}
+/*********************************------clear PROPERTIES-************************
+its help to warp text under the img-   img bhanda tala jancha text haru sabai.  */
+
+/* .python-desc {
+  clear: right;
+}
+
+.web-desc {
+  clear: left;
+} */
+
+.contact-me {
+  line-height: 2;
+  background-color: white;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 4px 10px 3px 7px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-link {
+  padding-top: 20px;
+  color: #11999e;
+  font-size: small;
+}
+
+.footer-text {
+  color: white;
+}
+
+hr {
+  border: dotted #404242 5px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
